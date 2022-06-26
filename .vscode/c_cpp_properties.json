@@ -4,7 +4,15 @@
             "name": "Linux",
             "includePath": [
                 "${default}",
-                "${workspaceFolder}"
+                "${workspaceFolder}",
+                        "/usr/lib/gcc/x86_64-linux-gnu/9/include",
+			"/lib/modules/5.13.0-51-generic/build/include",
+			"/lib/modules/5.13.0-51-generic/build/include/uapi",
+			"/lib/modules/5.13.0-51-generic/build/include/generated/uapi",
+			"/lib/modules/5.13.0-51-generic/build/arch/x86/include",
+			"/lib/modules/5.13.0-51-generic/build/arch/x86/include/uapi",
+			"/lib/modules/5.13.0-51-generic/build/arch/x86/include/generated",
+			"/lib/modules/5.13.0-51-generic/build/arch/x86/include/generated/uapi"
             ],
             "defines": [
                 "KBUILD_MODNAME=\"gpio_ioctl\"",
